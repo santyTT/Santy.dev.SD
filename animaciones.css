@@ -1,0 +1,18 @@
+/*animation for text bottom to top*/
+.text {
+    display: flex;
+    font-size: 3rem;
+}
+
+.letter {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: appearUp 1s forwards;
+}
+
+@keyframes appearUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
