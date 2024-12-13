@@ -50,7 +50,7 @@
             <h2>Welcome to SD</h2>
             <div class="Componets">
                 <input placeholder="Username">
-                <input placeholder="Passworld" type="password" >
+                <input placeholder="Passworld" type="password">
                 <button type="submit">Create Account</button>
             </div>
         </div>
@@ -258,7 +258,7 @@
         }
     });
 
-    document.addEventListener('click', function(event) {
+    document.addEventListener('click', function (event) {
         if (!loginMenu.contains(event.target) && event.target !== buttonLogin) {
             loginMenu.style.opacity = '0';
             loginMenu.style.transition = 'opacity 1s ease';
@@ -269,7 +269,7 @@
         }
     });
 
-    loginMenu.addEventListener('click', function(event) {
+    loginMenu.addEventListener('click', function (event) {
         event.stopPropagation();
     });
 </script>
