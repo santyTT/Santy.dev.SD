@@ -22,7 +22,7 @@ menuItems.forEach(item => {
 
         menu.classList.remove('active');
         html.classList.remove('no-scroll');
-    });
+    })
 });
 });
 

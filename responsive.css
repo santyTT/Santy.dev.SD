@@ -30,6 +30,11 @@
         margin-top: -20%;
     }
 
+    .scroll-ini a{
+        margin-left: -10px;
+        margin-top: -133px;
+    }
+
     .coffee-icon {
         width: 10px;
     }
@@ -190,7 +195,8 @@
     .align-boxing {
         display: flex;
         gap: 20px;
-        overflow-x: auto;
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
         padding: 10px;
     }
 
@@ -202,6 +208,10 @@
         min-width: 99%;
         border-radius: 10px;
         padding: 15px;
+        scroll-snap-align: start;
+        justify-content: center;
+        align-items: center;
+        scroll-margin: 15px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 

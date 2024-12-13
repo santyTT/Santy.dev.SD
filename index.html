@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="roots.css">
     <title>Santy.dev</title>
 </head>
+
 <div class="loader">
     <span class="loader__element"></span>
     <span class="loader__element"></span>
@@ -23,14 +24,14 @@
         <header>
             <nav>
                 <span class="logo-navar">
-                    <h2><a href="#" class="menu-animation-logo">SV</a></h2>
+                    <h2><a href="#" class="menu-animation-logo">SD</a></h2>
                 </span>
                 <span class="menu-toggle">&#9776;</span>
 
                 <ul>
                     <span class="logo-navar">
                         <h2><a href="#" class="menu-animation" id="logo-menu" style="display: block;
-                            margin-top: -153px;">SV</a></h2>
+                            margin-top: -153px;">SD</a></h2>
                     </span>
                     <li><a href="index.html" class="menu-animation">Home</a></li>
                     <li><a href="#services" class="menu-animation">Services</a></li>
@@ -40,24 +41,31 @@
                     <li><a href="#" class="menu-animation">Contact</a></li>
                 </ul>
                 <ul class="login">
-                    <li><a href="#" class="menu-animation">Login</a></li>
+                    <a class="menu-animation button-w" id="login-btn">Login</a>
                     <img src="img/taza-de-cafe.png" alt="" class="Coffee">
                 </ul>
             </nav>
         </header>
+        <div class="windows-login" id="login-w" style="display: none;">
+            <h2>Welcome to SD</h2>
+            <div class="Componets">
+                <input placeholder="Username">
+                <input placeholder="Passworld" type="password" >
+                <button type="submit">Create Account</button>
+            </div>
+        </div>
         <video src="img/background-ini.mp4" autoplay="true" muted="true" loop="true" id="video"
             class="video-background"></video>
-        <span class="text-ini" data-aos="zoom-in" data-aos-delay="1000"> <span class="punt-hidden" data-aos="zoom-in">Innovative Thinking.</span> <span class="text-hidden" >Creative
+        <span class="text-ini" id="text-ini" data-aos="zoom-in" data-aos-delay="1000"> <span class="punt-hidden"
+                data-aos="zoom-in">Innovative Thinking.</span> <span class="text-hidden">Creative
                 Thinker <br>& Coffee Devotee.</span></span>
-
-        <button class="bt-ini">
-            What a good job 🔥</button>
+        <span class="scroll-ini"><a href="#about-me">˅</a></span>
     </div>
     <section class="about-me" id="about-me">
         <div class="content-1">
 
             <div class="box-1">
-               <img src="img/Img-section-1.png" alt="">
+                <img src="img/Img-section-1.png" alt="">
                 <div class="align_text">
                     <h2>Being a passionate developer <br> & designer is my primary focus.
                     </h2>
@@ -84,12 +92,12 @@
         </div>
     </section>
 
-    <section class="content-2" id="services">
+    <section class="content-2">
         <center>
             <h2 class="title-text">
                 Get to know me more</h2>
         </center>
-        <div class="targets">
+        <div class="targets" id="services">
             <div class="Sub-box" data-aos="zoom-in" data-aos-delay="100">
                 <h3>What I offer</h3>
                 <p>I provide tailored solutions like web development, interface design, and data analysis to bring your
@@ -138,54 +146,64 @@
         <h4>Latest Blog Posts</h4>
         <h2>Read some thoughts and ideas as a web developer.</h2>
         <div class="align-boxing">
-        <div class="sub-box-content-3">
-            <img src="img/img-1_3.jpg" alt="" data-aos="flip-left" data-aos-delay="100">
-            <h3>Introducing</h3>
-            <p>Santy.dev is more than just a blog—it's my big project and a space to share insights, ideas, and creations as a developer. Dive in and join me on this exciting journey!</p>
-            <a href="#" class="link-default-2">Read More</a>
+            <div class="sub-box-content-3">
+                <img src="img/img-1_3.jpg" alt="" data-aos="flip-left" data-aos-delay="100">
+                <h3>Introducing</h3>
+                <p>Santy.dev is more than just a blog—it's my big project and a space to share insights, ideas, and
+                    creations as a developer. Dive in and join me on this exciting journey!</p>
+                <a href="#" class="link-default-2">Read More</a>
+            </div>
+            <div class="sub-box-content-3">
+                <img src="img/img-1_3.jpg" alt="" data-aos="flip-left" data-aos-delay="200">
+                <h3>Code Wiki</h3>
+                <p>Code Wiki is a hub for developers to explore, learn, and grow. It’s packed with tutorials, tips, and
+                    practical examples to simplify coding and fuel creativity.</p>
+                <a href="#" class="link-default-2">Read More</a>
+            </div>
+            <div class="sub-box-content-3">
+                <img src="img/img-1_3.jpg" alt="" data-aos="flip-left" data-aos-delay="400">
+                <h3>Project To Place</h3>
+                <p>Project to Place is all about turning ideas into reality. It’s where concepts transform into tangible
+                    solutions, seamlessly transitioning from planning to implementation, and making an impact in the
+                    real world.</p>
+                <a href="#" class="link-default-2">Read More</a>
+            </div>
         </div>
-        <div class="sub-box-content-3">
-            <img src="img/img-1_3.jpg" alt="" data-aos="flip-left" data-aos-delay="200">
-            <h3>Code Wiki</h3>
-            <p>Code Wiki is a hub for developers to explore, learn, and grow. It’s packed with tutorials, tips, and practical examples to simplify coding and fuel creativity.</p>
-            <a href="#" class="link-default-2">Read More</a>
-        </div>
-        <div class="sub-box-content-3">
-            <img src="img/img-1_3.jpg" alt="" data-aos="flip-left" data-aos-delay="400">
-            <h3>Project To Place</h3>
-            <p>Project to Place is all about turning ideas into reality. It’s where concepts transform into tangible solutions, seamlessly transitioning from planning to implementation, and making an impact in the real world.</p>
-            <a href="#" class="link-default-2">Read More</a>
-        </div>
-    </div>
     </section>
     <section class="content-4">
         <h4>My Instagram feed</h4>
         <h3>Me as a Developer.</h3>
         <div class="align-img">
-        <img src="img/feed-insta-1.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="100"  data-aos-duration="300">
-        <img src="img/feed-insta-2.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="200"  data-aos-duration="400">
-        <img src="img/feed-insta-3.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="300"  data-aos-duration="500">
-        <img src="img/feed-insta-4.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="400"  data-aos-duration="600">
-        <img src="img/feed-insta-5.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="500"  data-aos-duration="700">
-        <img src="img/feed-insta-6.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="600"  data-aos-duration="800">
-    
-    </div>
+            <img src="img/feed-insta-1.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="100"
+                data-aos-duration="300">
+            <img src="img/feed-insta-2.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="200"
+                data-aos-duration="400">
+            <img src="img/feed-insta-3.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="300"
+                data-aos-duration="500">
+            <img src="img/feed-insta-4.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="400"
+                data-aos-duration="600">
+            <img src="img/feed-insta-5.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="500"
+                data-aos-duration="700">
+            <img src="img/feed-insta-6.jpg" alt="feed-img-instagram" data-aos="zoom-out-up" data-aos-delay="600"
+                data-aos-duration="800">
+
+        </div>
     </section>
     <footer>
         <div class="contacts">
-        <a href="#">santiprocastellar7@gmail.com</a>
-        <a href="#">3217246664</a>
-    </div>
-    <span class="logo-navar">
-    <h2><a href="#" class="menu-animation-logo-footer">SV</a></h2>
- </span>
+            <a href="#">santiprocastellar7@gmail.com</a>
+            <a href="#">3217246664</a>
+        </div>
+        <span class="logo-navar">
+            <h2><a href="#" class="menu-animation-logo-footer">SD</a></h2>
+        </span>
     </footer>
     <div class="drenches">
         <h6>© 2024 All rights reserved. Santy Developer & Founder of Santy.dev</h6>
         <div class="Terms">
-        <a href="#">Terms of services</a>
-        <a href="#">Privacy Policy</a>
-    </div>
+            <a href="#">Terms of services</a>
+            <a href="#">Privacy Policy</a>
+        </div>
     </div>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -194,31 +212,68 @@
 </script>
 
 <script>
-const menuToggle = document.querySelector('.menu-toggle');
-const html = document.documentElement;
-const menu = document.querySelector('nav ul');
-const menuItems = document.querySelectorAll('.menu-animation');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const html = document.documentElement;
+    const menu = document.querySelector('nav ul');
+    const menuItems = document.querySelectorAll('.menu-animation');
 
-menuToggle.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    html.classList.toggle('no-scroll');
-});
-
-menuItems.forEach(item => {
-    item.addEventListener('click', (e) => {
-        const targetId = e.target.getAttribute('href').substring(1);
-        const targetSection = document.getElementById(targetId);
-
-
-        targetSection.scrollIntoView({ behavior: 'smooth' });
-
-
-        menu.classList.remove('active');
-        html.classList.remove('no-scroll');
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+        html.classList.toggle('no-scroll');
     });
-});
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            const targetId = e.target.getAttribute('href');
+            const targetSection = document.getElementById(targetId);
+
+            menu.classList.remove('active');
+            html.classList.remove('no-scroll');
+        });
+    });
 
 
 </script>
+
+<script>
+    const loginMenu = document.getElementById('login-w');
+    const buttonLogin = document.getElementById('login-btn');
+
+    buttonLogin.addEventListener('click', function () {
+        if (loginMenu.style.display === 'none' || loginMenu.style.display === '') {
+            loginMenu.style.display = 'block';
+            loginMenu.style.opacity = '0';
+            setTimeout(function () {
+                loginMenu.style.transition = 'opacity 1s ease';
+                loginMenu.style.opacity = '1';
+            }, 10);
+            document.documentElement.style.overflow = 'hidden';
+        } else {
+            loginMenu.style.opacity = '0';
+            loginMenu.style.transition = 'opacity 1s ease';
+            setTimeout(function () {
+                loginMenu.style.display = 'none';
+            }, 1000);
+            document.documentElement.style.overflow = 'auto';
+        }
+    });
+
+    document.addEventListener('click', function(event) {
+        if (!loginMenu.contains(event.target) && event.target !== buttonLogin) {
+            loginMenu.style.opacity = '0';
+            loginMenu.style.transition = 'opacity 1s ease';
+            setTimeout(function () {
+                loginMenu.style.display = 'none';
+            }, 1000);
+            document.documentElement.style.overflow = 'auto';
+        }
+    });
+
+    loginMenu.addEventListener('click', function(event) {
+        event.stopPropagation();
+    });
+</script>
+
+
 
 </html>
